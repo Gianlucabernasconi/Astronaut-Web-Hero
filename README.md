@@ -1,5 +1,7 @@
 # 🌌 Astronaut Hero – Solara
 
+![Solara Preview](https://i.ibb.co/HDZjKHDw/solara.png)
+
 Hero animado desarrollado con **Vue 3** y **Tailwind CSS**, inspirado en la estética espacial y cinematográfica.
 
 Incluye detección automática de resolución, animaciones sutiles y un video de fondo optimizado desde **Bunny.net**.
