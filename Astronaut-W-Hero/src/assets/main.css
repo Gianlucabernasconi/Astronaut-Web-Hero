@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbit&family=Orbitron:wght@400..900&display=swap');
+
+/* ===== Fuentes base ===== */
+@layer base {
+  p {
+    font-family: 'Orbit', sans-serif;
+  }
+
+  h1 {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .font-orbitron {
+    font-family: 'Orbitron', sans-serif;
+  }
+}
+
+/* ===== Variables globales ===== */
+@theme {
+  --color-texto: #FFB86F;
+  --breakpoint-2k: 160rem; /* 2560px */
+  --breakpoint-4k: 192rem; /* 3840px */
+}
