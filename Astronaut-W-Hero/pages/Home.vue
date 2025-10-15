@@ -8,7 +8,7 @@ console.log(window.innerWidth, window.devicePixelRatio)
     <!-- Contenedor del video con overlay -->
     <div class="video-wrapper absolute top-0 left-0 w-full h-full before:content-[''] before:absolute before:inset-0 before:bg-black/90 before:z-10">
       <video autoplay muted loop playsinline preload="auto" poster="/cover.webp" class="absolute top-0 left-0 w-full h-full object-cover z-0">
-  <source src="https://herosweb.b-cdn.net/Fullhdhero-720p.mp4" type="video/mp4" media="(max-width: 768px)"/>
+  <source src="https://herosweb.b-cdn.net/720recortado-mobile.mp4" type="video/mp4" media="(max-width: 768px)"/>
   <source src="https://herosweb.b-cdn.net/Fullhdhero-web.mp4" type="video/mp4" media="(min-width: 769px)"/>
 </video>
 
@@ -21,8 +21,8 @@ console.log(window.innerWidth, window.devicePixelRatio)
 
     <!-- Sección central -->
     <div class="central flex flex-col justify-center items-center z-20 flex-none basis-[50%]">
-      <h1 class="animate-blink-once text-[var(--color-texto)] text-[6rem] 4k:text-[8rem] font-orbit font-bold mix-blend-screen">SOLARA</h1>
-      <img src="/world.webp" alt="Mundo"class="world w-[150px] h-[150px] md:w-[300px] md:h-[300px] 2k:w-[500px] 2k:h-[500px] 4k:w-[700px] 4k:h-[700px] hover:scale-105 hover:opacity-60 hover:blur-sm transition-all duration-600"/>
+      <h1 class="animate-blink-once text-[var(--color-texto)] text-[6rem] 4k:text-[10rem] font-orbit font-bold mix-blend-screen">SOLARA</h1>
+      <img src="/world.webp" alt="Mundo"class="world w-[150px] h-[150px] md:w-[300px] md:h-[300px] 2k:w-[500px] 2k:h-[500px] 4k:w-[600px] 4k:h-[600px] hover:scale-105 hover:opacity-60 hover:blur-sm transition-all duration-600"/>
         <p class="description text-[var(--color-texto)] text-sm text-center font-medium 4k:text-xl">Donde la ciencia y el arte se encuentran para imaginar futuros posibles</p>
      <span class="absolute bottom-6 left-1/2 -translate-x-1/2 flex justify-center items-center gap-6 z-20">
 
@@ -103,12 +103,12 @@ console.log(window.innerWidth, window.devicePixelRatio)
 
 .animate-blink-once {
   animation: blink-once 2.8s ease-in-out 1; 
-  font-size: 4rem;
+  font-size: 3.4rem;
 
 
 }
 .description {
-  font-size: 0.775rem;
+  font-size: 0.575rem;
   padding: 0 1rem;
   margin-top: 1rem;
 }
@@ -123,8 +123,8 @@ console.log(window.innerWidth, window.devicePixelRatio)
 }
 
 .world {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   margin: 20px 0; 
 }
 

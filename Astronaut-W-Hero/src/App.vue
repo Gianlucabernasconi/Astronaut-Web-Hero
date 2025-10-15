@@ -9,4 +9,13 @@ import Header from '../pages/Header.vue';
   <Home />
 </template>
 
-<style scoped></style>
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: black;
+}
+</style>
+
